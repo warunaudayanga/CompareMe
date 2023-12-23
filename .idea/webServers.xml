@@ -2,11 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="592d5894-6fd7-4c5c-be51-cfaf3cbd2426" name="000webhost" url="http://files.000webhost.com">
-        <fileTransfer rootFolder="/public_html/" host="files.000webhost.com" port="21">
+      <webServer id="592d5894-6fd7-4c5c-be51-cfaf3cbd2426" name="000webhost" url="">
+        <fileTransfer host="files.000webhost.com" port="21" rootFolder="/public_html/">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>

@@ -3,12 +3,6 @@ require('../common/DB.php');
 $dev = $_POST['param']?>
 <div class="row sticky-left">
     <div class="offset-10 col-2 mb-3">
-        <h2 style="position: fixed;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin-top: 6px;
-    font-weight: 700;">Compare Mobiles</h2>
         <button onclick="if(lastPge=='activeComplete') {window.history.back();window.history.back()} else {window.history.back()}" class="btn btn-light border-secondary float-right back">Back</button>
     </div>
 </div>

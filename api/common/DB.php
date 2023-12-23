@@ -1,9 +1,9 @@
 <?php
 class DB {
     private $servername = 'localhost';
-    private $username = 'id13877536_waxiwaxis';
-    private $password = 'UI*AB~)X\YlTa5Q5';
-    private $dbname = 'id13877536_compareme';
+    private $username = 'root';
+    private $password = 'root';
+    private $dbname = 'compare-me';
     private $conn;
 
     public function __construct() {

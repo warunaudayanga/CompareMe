@@ -36,7 +36,7 @@
 <div id="content" class="container-fluid body">
 
 </div>
-<div class="footer"><div class="footer-text"><p>&copy; CompareMe</p></div></div>
+<div class="footer"><div class="footer-text"><p>&copy; footer text</p></div></div>
 
 <div class="spinner-back-drop">
     <div class="spinner">

@@ -370,7 +370,6 @@ function createTable(keyArray, data, devType) {
             if(data[2] != undefined && data[2][key] == 'N/A') data[2][key] = '';
 
             if(key.indexOf('_') != -1 && (data[0][key] == '' && data[1][key] == '' && (data[2] === undefined || data[2][key] == ''))) {
-                console.log(key);
                 continue;
             }
 
@@ -443,7 +442,6 @@ $(document).on('click', '.compare', function () {
     d2 = dev2 != '';
     d3 = dev3 != '';
     if ((dev1 != '' && dev2 != '' || dev2 != '' && dev3 != '' || dev1 != '' && dev3 != '') && !(dev1 == dev2 && dev1 == dev3)) {
-        console.log(devType);
         $.ajax({
             url: 'get/compare.php',
             type: 'post',
